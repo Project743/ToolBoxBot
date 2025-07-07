@@ -8,6 +8,7 @@ class PasswordGenerator:
         self.length = length
         self.use_digits = use_digits
         self.use_symbols = use_symbols
+        self.safe_symbols = "!@#$%^&*()-_=+[]{}"
 
     def set_length(self, length: int) -> None:
         self.length = length
@@ -23,7 +24,7 @@ class PasswordGenerator:
             raise ValueError("Длина пароля должна быть больше 2")
         letter_chars = string.ascii_letters
         digit_chars = string.digits
-        symbol_chars = string.punctuation
+        symbol_chars = self.safe_symbols #string.punctuation
         password = []
         chars = letter_chars
         password.append(secrets.choice(letter_chars))

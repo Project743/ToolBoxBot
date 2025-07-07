@@ -1,0 +1,71 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2025 YOUR NAME
+# This file is distributed under the same license as the PROJECT project.
+# YOUR NAME <youremail@example.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: youremail@example.com\n"
+"POT-Creation-Date: 2025-07-07 18:14+0200\n"
+"PO-Revision-Date: 2025-07-07 17:00+0200\n"
+"Last-Translator: YOUR NAME <youremail@example.com>\n"
+"Language: ru\n"
+"Language-Team: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: dialog/input.py:16
+msgid "please_send_text_message"
+msgstr "✏️ Пожалуйста, отправьте текстовое сообщение."
+
+#: dialog/input.py:23
+msgid "invalid_number"
+msgstr "❌ Пожалуйста, введите только число."
+
+#: dialog/input.py:28
+msgid "password_length_too_short"
+msgstr "⚠️ Длина пароля должна быть не меньше 3 символов."
+
+#: dialog/input.py:39 dialog/pass_generate.py:44
+msgid "input"
+msgstr "✏️ Введите длину пароля"
+
+#: dialog/input.py:40 dialog/pass_generate.py:48
+msgid "back"
+msgstr "🔙 Назад"
+
+#: dialog/pass_generate.py:38
+msgid "your_password"
+msgstr "🔑 Ваш пароль:"
+
+#: dialog/pass_generate.py:41
+msgid "use_digits"
+msgstr "🔢 Добавить цифры"
+
+#: dialog/pass_generate.py:41
+msgid "use_symbols"
+msgstr "✨ Добавить спецсимволы"
+
+#: dialog/pass_generate.py:45
+msgid "generate"
+msgstr "⚡ Сгенерировать"
+
+#: dialog/pass_generate.py:46
+msgid "select_option"
+msgstr "🔧 Выберите опции генерации"
+
+#: handlers/start.py:16
+msgid "welcome_message"
+msgstr "👋 Добро пожаловать! Я помогу сгенерировать безопасный пароль 🔐"
+
+#: keyboards/startkb.py:6
+msgid "pass_generate"
+msgstr "⚡ Сгенерировать пароль"
+
+
+
