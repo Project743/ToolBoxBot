@@ -12,6 +12,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram_dialog import setup_dialogs
 from aiogram.utils.i18n import SimpleI18nMiddleware
 
+from middlewares.reset_dialog import DialogResetMiddleware
+
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
 dp = Dispatcher(storage=MemoryStorage())
@@ -25,7 +27,7 @@ for router in routers:
 setup_dialogs(dp)
 for dialog in dialogs:
     dp.include_router(dialog)
-
+dp.message.middleware(DialogResetMiddleware())
 
 async def start_bot() -> None:
     bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))

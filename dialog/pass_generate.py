@@ -3,14 +3,13 @@ from aiogram_dialog.widgets.text import Format
 from aiogram.fsm.state import State, StatesGroup
 from aiogram_dialog.widgets.kbd import Button, Multiselect
 from utils.generate_password import PasswordGenerator
-from config import i18n
 from aiogram.types import CallbackQuery
 from dialog.input import InputSG
 from dialog import on_process_result
 from typing import Any
 import html
 
-_ = i18n.gettext
+
 
 
 class PassGenSG(StatesGroup):
@@ -42,10 +41,11 @@ async def generate_selection(callback: CallbackQuery, button: Button, manager: D
 
 
 async def pass_getter(dialog_manager: DialogManager, **kwargs):
+    _ = dialog_manager.middleware_data["i18n"].gettext
     options = [{"name": _("use_digits"), "id": "use_digits"}, {"name": _("use_symbols"), "id": "use_symbols"}]
     pass_options = [(option["id"], option["name"]) for option in options]
     return {
-        "input": f"{_("input")} / {int(dialog_manager.dialog_data["options"]["input_len_pass"])}",
+        "input_len_pass": f"{_("input_len_pass")} / {int(dialog_manager.dialog_data["options"]["input_len_pass"])}",
         "generate": _("generate"),
         "select_option": _("select_option"),
         "options": pass_options,
@@ -65,7 +65,7 @@ async def on_start(start_data: Any, manager: DialogManager):
 gen_pass_dialog = Dialog(
     Window(
         Format("{select_option}"),
-        Button(Format("{input}"), id="input", on_click=on_click_input),
+        Button(Format("{input_len_pass}"), id="input_len_pass", on_click=on_click_input),
         options_buttons(),  # Тут кнопки с каналами (Radio или Multiselect)
         Button(Format("{generate}"), id="generate", on_click=generate_selection),
         Button(Format("{back}"), id="add_text", on_click=lambda c, b, m: m.done(show_mode=ShowMode.SEND)),

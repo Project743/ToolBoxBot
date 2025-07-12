@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-07 18:14+0200\n"
+"POT-Creation-Date: 2025-07-12 16:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,44 +17,148 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: dialog/input.py:16
+#: dialog/input.py:40
 msgid "please_send_text_message"
 msgstr ""
 
-#: dialog/input.py:23
+#: dialog/input.py:62
 msgid "invalid_number"
 msgstr ""
 
-#: dialog/input.py:28
+#: dialog/input.py:64
 msgid "password_length_too_short"
 msgstr ""
 
-#: dialog/input.py:39 dialog/pass_generate.py:44
+#: dialog/input.py:70
+msgid "no_valid_email"
+msgstr ""
+
+#: dialog/input.py:76
+msgid "no_valid_phone"
+msgstr ""
+
+#: dialog/input.py:88 dialog/pass_generate.py:48
+msgid "input_len_pass"
+msgstr ""
+
+#: dialog/input.py:89
+msgid "input_wifi_ssid"
+msgstr ""
+
+#: dialog/input.py:90
+msgid "input_wifi_password"
+msgstr ""
+
+#: dialog/input.py:91
+msgid "input_text_or_url"
+msgstr ""
+
+#: dialog/input.py:92 dialog/qr_generate/getters.py:45
+msgid "input_name"
+msgstr ""
+
+#: dialog/input.py:93 dialog/qr_generate/getters.py:47
+msgid "input_phone"
+msgstr ""
+
+#: dialog/input.py:94 dialog/qr_generate/getters.py:46
+msgid "input_email"
+msgstr ""
+
+#: dialog/input.py:95 dialog/qr_generate/getters.py:48
+msgid "input_org"
+msgstr ""
+
+#: dialog/input.py:101
 msgid "input"
 msgstr ""
 
-#: dialog/input.py:40 dialog/pass_generate.py:48
+#: dialog/input.py:102 dialog/pass_generate.py:52
+#: dialog/qr_generate/getters.py:13 dialog/qr_generate/getters.py:26
+#: dialog/qr_generate/getters.py:37 dialog/qr_generate/getters.py:50
+#: dialog/suggestion.py:21
 msgid "back"
 msgstr ""
 
-#: dialog/pass_generate.py:38
+#: dialog/pass_generate.py:40
 msgid "your_password"
 msgstr ""
 
-#: dialog/pass_generate.py:41
+#: dialog/pass_generate.py:45
 msgid "use_digits"
 msgstr ""
 
-#: dialog/pass_generate.py:41
+#: dialog/pass_generate.py:45
 msgid "use_symbols"
 msgstr ""
 
-#: dialog/pass_generate.py:45
+#: dialog/pass_generate.py:49 dialog/qr_generate/getters.py:25
+#: dialog/qr_generate/getters.py:36 dialog/qr_generate/getters.py:49
 msgid "generate"
 msgstr ""
 
-#: dialog/pass_generate.py:46
+#: dialog/pass_generate.py:50
 msgid "select_option"
+msgstr ""
+
+#: dialog/suggestion.py:20
+msgid "input_message"
+msgstr ""
+
+#: dialog/suggestion.py:30
+msgid "offer_sent"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:9
+msgid "select_qr"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:10
+msgid "wifi_qr"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:11
+msgid "contact_qr"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:12
+msgid "text_qr"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:22
+msgid "input_wifi_for_qr"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:23
+msgid "wifi_ssid"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:24
+msgid "wifi_password"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:34
+msgid "input_text_for_qr"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:35
+msgid "input_text"
+msgstr ""
+
+#: dialog/qr_generate/getters.py:44
+msgid "input_contact_for_qr"
+msgstr ""
+
+#: dialog/qr_generate/selected.py:36
+msgid "input_name_wifi"
+msgstr ""
+
+#: dialog/qr_generate/selected.py:46
+msgid "input_name_contact"
+msgstr ""
+
+#: handlers/errors.py:35
+msgid "button_is_outdated"
 msgstr ""
 
 #: handlers/start.py:16
@@ -63,5 +167,13 @@ msgstr ""
 
 #: keyboards/startkb.py:6
 msgid "pass_generate"
+msgstr ""
+
+#: keyboards/startkb.py:7
+msgid "qr_generate"
+msgstr ""
+
+#: keyboards/startkb.py:8
+msgid "suggestion"
 msgstr ""
 

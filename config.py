@@ -7,7 +7,7 @@ load_dotenv()
 
 TOKEN = os.getenv("BOT_TOKEN")
 BOT_USERNAME = os.getenv("BOT_USERNAME")  # Юзернейм бота (без @)
-
+ADMIN_ID = os.getenv("ADMIN_ID")
 if not TOKEN:
     raise ValueError("❌ BOT_TOKEN не найден в .env!")
 if not BOT_USERNAME:
