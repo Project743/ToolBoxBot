@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-12 16:38+0200\n"
+"POT-Creation-Date: 2025-07-14 16:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -151,8 +151,8 @@ msgid "input_contact_for_qr"
 msgstr "👤 Kontakt-QR-Einstellungen."
 
 #: dialog/qr_generate/selected.py:36
-msgid "input_name_wifi"
-msgstr "📶 Wi-Fi-Name."
+msgid "need_input_name_wifi"
+msgstr "📶 Geben Sie zunächst den Namen des Wi-Fi-Netzwerks an."
 
 #: dialog/qr_generate/selected.py:46
 msgid "input_name_contact"

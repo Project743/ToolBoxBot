@@ -33,7 +33,7 @@ async def generate(callback: CallbackQuery, button: Button, manager: DialogManag
     option = data.get("options",{})
     if qr_type == "wifi":
         if option.get("wifi_ssid") is None:
-            await callback.message.answer(_("input_name_wifi"))
+            await callback.message.answer(_("need_input_name_wifi"))
             return
         ssid = option.get("wifi_ssid")
         password = option.get("wifi_password")
