@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-14 16:16+0200\n"
+"POT-Creation-Date: 2025-07-18 15:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -18,163 +18,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: dialog/input.py:40
 msgid "please_send_text_message"
-msgstr "✏️ Send text."
+msgstr "✏️ Please send a text message."
 
-#: dialog/input.py:62
 msgid "invalid_number"
-msgstr "❌ Enter a number."
+msgstr "❌ Please enter a number."
 
-#: dialog/input.py:64
 msgid "password_length_too_short"
-msgstr "⚠️ Password must be at least 3 chars."
+msgstr "⚠️ Password must be at least 3 characters."
 
-#: dialog/input.py:70
 msgid "no_valid_email"
 msgstr "❌ Invalid email."
 
-#: dialog/input.py:76
 msgid "no_valid_phone"
-msgstr "❌ Invalid phone."
+msgstr "❌ Invalid phone number."
 
-#: dialog/input.py:88 dialog/pass_generate.py:48
 msgid "input_len_pass"
 msgstr "🔢 Password length."
 
-#: dialog/input.py:89
 msgid "input_wifi_ssid"
 msgstr "📶 Wi-Fi name."
 
-#: dialog/input.py:90
 msgid "input_wifi_password"
 msgstr "🔑 Wi-Fi password."
 
-#: dialog/input.py:91
 msgid "input_text_or_url"
 msgstr "💬 Text or link."
 
-#: dialog/input.py:92 dialog/qr_generate/getters.py:45
 msgid "input_name"
 msgstr "👤 Name."
 
-#: dialog/input.py:93 dialog/qr_generate/getters.py:47
 msgid "input_phone"
 msgstr "📞 Phone."
 
-#: dialog/input.py:94 dialog/qr_generate/getters.py:46
 msgid "input_email"
 msgstr "✉️ Email."
 
-#: dialog/input.py:95 dialog/qr_generate/getters.py:48
 msgid "input_org"
 msgstr "🏢 Organization."
 
-#: dialog/input.py:101
 msgid "input"
-msgstr "⌨️ Enter value."
+msgstr "⌨️ Enter."
 
-#: dialog/input.py:102 dialog/pass_generate.py:52
-#: dialog/qr_generate/getters.py:13 dialog/qr_generate/getters.py:26
-#: dialog/qr_generate/getters.py:37 dialog/qr_generate/getters.py:50
-#: dialog/suggestion.py:21
 msgid "back"
 msgstr "🔙 Back"
 
-#: dialog/pass_generate.py:40
 msgid "your_password"
 msgstr "🔑 Your password:"
 
-#: dialog/pass_generate.py:45
 msgid "use_digits"
 msgstr "🔢 Add digits"
 
-#: dialog/pass_generate.py:45
 msgid "use_symbols"
 msgstr "✨ Add symbols"
 
-#: dialog/pass_generate.py:49 dialog/qr_generate/getters.py:25
-#: dialog/qr_generate/getters.py:36 dialog/qr_generate/getters.py:49
 msgid "generate"
 msgstr "⚡ Generate"
 
-#: dialog/pass_generate.py:50
 msgid "select_option"
 msgstr "🔧 Select options."
 
-#: dialog/suggestion.py:20
 msgid "input_message"
 msgstr "💡 Send your suggestion and I will forward it to the admins."
 
-#: dialog/suggestion.py:30
 msgid "offer_sent"
 msgstr "✅ Suggestion sent."
 
-#: dialog/qr_generate/getters.py:9
 msgid "select_qr"
-msgstr "📌 Choose QR type."
+msgstr "📌 Choose QR code."
 
-#: dialog/qr_generate/getters.py:10
 msgid "wifi_qr"
 msgstr "📶 Wi-Fi QR."
 
-#: dialog/qr_generate/getters.py:11
 msgid "contact_qr"
 msgstr "👤 Contact QR."
 
-#: dialog/qr_generate/getters.py:12
 msgid "text_qr"
 msgstr "💬 Text/Link QR."
 
-#: dialog/qr_generate/getters.py:22
 msgid "input_wifi_for_qr"
 msgstr "📶 Wi-Fi QR settings."
 
-#: dialog/qr_generate/getters.py:23
 msgid "wifi_ssid"
 msgstr "📶 Wi-Fi name."
 
-#: dialog/qr_generate/getters.py:24
 msgid "wifi_password"
 msgstr "🔑 Password."
 
-#: dialog/qr_generate/getters.py:34
 msgid "input_text_for_qr"
 msgstr "💬 Text QR settings."
 
-#: dialog/qr_generate/getters.py:35
 msgid "input_text"
-msgstr "💬 Text or link."
+msgstr "💬 Text/Link."
 
-#: dialog/qr_generate/getters.py:44
 msgid "input_contact_for_qr"
 msgstr "👤 Contact QR settings."
 
-#: dialog/qr_generate/selected.py:36
 msgid "need_input_name_wifi"
-msgstr "📶 First, specify the name of the Wi-Fi network."
+msgstr "📶 Please specify the Wi-Fi name first."
 
-#: dialog/qr_generate/selected.py:46
 msgid "input_name_contact"
 msgstr "👤 Contact name."
 
-#: handlers/errors.py:35
+msgid "donate"
+msgstr "💫 Support"
+
+msgid "pay"
+msgstr "💸 Pay"
+
+msgid "select_amount"
+msgstr "💰 Choose amount"
+
+msgid "support_bot"
+msgstr "💫 Support the bot"
+
+msgid "support_bot_on_stars"
+msgstr "⭐ Support the bot with Stars"
+
+msgid "thanks_for_support"
+msgstr "🙏 Thank you for your support!"
+
 msgid "button_is_outdated"
-msgstr "⚠️ Menu expired. Use /start."
+msgstr "⚠️ This button is outdated. Please type /start."
 
-#: handlers/start.py:16
 msgid "welcome_message"
-msgstr "👋 Welcome! I’ll help you create a safe password 🔐"
+msgstr "👋 Welcome! I will help you create a secure password 🔐"
 
-#: keyboards/startkb.py:6
 msgid "pass_generate"
 msgstr "⚡ Password"
 
-#: keyboards/startkb.py:7
 msgid "qr_generate"
-msgstr "📌 QR-code"
+msgstr "📌 QR Code"
 
-#: keyboards/startkb.py:8
 msgid "suggestion"
 msgstr "💡 Suggestion"
 
+msgid "need_input_name_contact"
+msgstr "Please enter the contact name first"

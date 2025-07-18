@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-14 16:16+0200\n"
+"POT-Creation-Date: 2025-07-18 15:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,6 +155,30 @@ msgstr ""
 
 #: dialog/qr_generate/selected.py:46
 msgid "input_name_contact"
+msgstr ""
+
+#: handlers/donate.py:17 handlers/donate.py:18 handlers/donate.py:21
+msgid "donate"
+msgstr ""
+
+#: handlers/donate.py:28
+msgid "pay"
+msgstr ""
+
+#: handlers/donate.py:35
+msgid "select_amount"
+msgstr ""
+
+#: handlers/donate.py:45
+msgid "support_bot"
+msgstr ""
+
+#: handlers/donate.py:46
+msgid "support_bot_on_stars"
+msgstr ""
+
+#: handlers/donate.py:60
+msgid "thanks_for_support"
 msgstr ""
 
 #: handlers/errors.py:35

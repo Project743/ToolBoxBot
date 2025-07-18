@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-14 16:16+0200\n"
+"POT-Creation-Date: 2025-07-18 15:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: de\n"
@@ -18,163 +18,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: dialog/input.py:40
 msgid "please_send_text_message"
-msgstr "✏️ Text senden."
+msgstr "✏️ Bitte senden Sie eine Nachricht."
 
-#: dialog/input.py:62
 msgid "invalid_number"
-msgstr "❌ Zahl eingeben."
+msgstr "❌ Bitte geben Sie eine Zahl ein."
 
-#: dialog/input.py:64
 msgid "password_length_too_short"
-msgstr "⚠️ Passwort min. 3 Zeichen."
+msgstr "⚠️ Passwort muss mindestens 3 Zeichen lang sein."
 
-#: dialog/input.py:70
 msgid "no_valid_email"
 msgstr "❌ Ungültige E-Mail."
 
-#: dialog/input.py:76
 msgid "no_valid_phone"
 msgstr "❌ Ungültige Telefonnummer."
 
-#: dialog/input.py:88 dialog/pass_generate.py:48
 msgid "input_len_pass"
 msgstr "🔢 Passwortlänge."
 
-#: dialog/input.py:89
 msgid "input_wifi_ssid"
-msgstr "📶 Wi-Fi-Name."
+msgstr "📶 Wi-Fi Name."
 
-#: dialog/input.py:90
 msgid "input_wifi_password"
-msgstr "🔑 Wi-Fi-Passwort."
+msgstr "🔑 Wi-Fi Passwort."
 
-#: dialog/input.py:91
 msgid "input_text_or_url"
 msgstr "💬 Text oder Link."
 
-#: dialog/input.py:92 dialog/qr_generate/getters.py:45
 msgid "input_name"
 msgstr "👤 Name."
 
-#: dialog/input.py:93 dialog/qr_generate/getters.py:47
 msgid "input_phone"
 msgstr "📞 Telefon."
 
-#: dialog/input.py:94 dialog/qr_generate/getters.py:46
 msgid "input_email"
 msgstr "✉️ E-Mail."
 
-#: dialog/input.py:95 dialog/qr_generate/getters.py:48
 msgid "input_org"
-msgstr "🏢 Firma."
+msgstr "🏢 Organisation."
 
-#: dialog/input.py:101
 msgid "input"
 msgstr "⌨️ Eingeben."
 
-#: dialog/input.py:102 dialog/pass_generate.py:52
-#: dialog/qr_generate/getters.py:13 dialog/qr_generate/getters.py:26
-#: dialog/qr_generate/getters.py:37 dialog/qr_generate/getters.py:50
-#: dialog/suggestion.py:21
 msgid "back"
 msgstr "🔙 Zurück"
 
-#: dialog/pass_generate.py:40
 msgid "your_password"
 msgstr "🔑 Ihr Passwort:"
 
-#: dialog/pass_generate.py:45
 msgid "use_digits"
 msgstr "🔢 Ziffern hinzufügen"
 
-#: dialog/pass_generate.py:45
 msgid "use_symbols"
 msgstr "✨ Symbole hinzufügen"
 
-#: dialog/pass_generate.py:49 dialog/qr_generate/getters.py:25
-#: dialog/qr_generate/getters.py:36 dialog/qr_generate/getters.py:49
 msgid "generate"
 msgstr "⚡ Generieren"
 
-#: dialog/pass_generate.py:50
 msgid "select_option"
-msgstr "🔧 Optionen wählen."
+msgstr "🔧 Optionen auswählen."
 
-#: dialog/suggestion.py:20
 msgid "input_message"
 msgstr "💡 Senden Sie Ihren Vorschlag und ich leite ihn an die Admins weiter."
 
-#: dialog/suggestion.py:30
 msgid "offer_sent"
 msgstr "✅ Vorschlag gesendet."
 
-#: dialog/qr_generate/getters.py:9
 msgid "select_qr"
-msgstr "📌 QR-Typ wählen."
+msgstr "📌 QR-Code auswählen."
 
-#: dialog/qr_generate/getters.py:10
 msgid "wifi_qr"
-msgstr "📶 Wi-Fi-QR."
+msgstr "📶 Wi-Fi QR."
 
-#: dialog/qr_generate/getters.py:11
 msgid "contact_qr"
 msgstr "👤 Kontakt-QR."
 
-#: dialog/qr_generate/getters.py:12
 msgid "text_qr"
-msgstr "💬 Text/Link-QR."
+msgstr "💬 Text-/Link-QR."
 
-#: dialog/qr_generate/getters.py:22
 msgid "input_wifi_for_qr"
-msgstr "📶 Wi-Fi-QR-Einstellungen."
+msgstr "📶 Wi-Fi QR Einstellungen."
 
-#: dialog/qr_generate/getters.py:23
 msgid "wifi_ssid"
-msgstr "📶 Wi-Fi-Name."
+msgstr "📶 Wi-Fi Name."
 
-#: dialog/qr_generate/getters.py:24
 msgid "wifi_password"
 msgstr "🔑 Passwort."
 
-#: dialog/qr_generate/getters.py:34
 msgid "input_text_for_qr"
-msgstr "💬 Text-QR-Einstellungen."
+msgstr "💬 Text-QR Einstellungen."
 
-#: dialog/qr_generate/getters.py:35
 msgid "input_text"
-msgstr "💬 Text oder Link."
+msgstr "💬 Text/Link."
 
-#: dialog/qr_generate/getters.py:44
 msgid "input_contact_for_qr"
-msgstr "👤 Kontakt-QR-Einstellungen."
+msgstr "👤 Kontakt-QR Einstellungen."
 
-#: dialog/qr_generate/selected.py:36
 msgid "need_input_name_wifi"
-msgstr "📶 Geben Sie zunächst den Namen des Wi-Fi-Netzwerks an."
+msgstr "📶 Bitte zuerst den Wi-Fi Namen angeben."
 
-#: dialog/qr_generate/selected.py:46
 msgid "input_name_contact"
 msgstr "👤 Kontaktname."
 
-#: handlers/errors.py:35
+msgid "donate"
+msgstr "💫 Unterstützen"
+
+msgid "pay"
+msgstr "💸 Bezahlen"
+
+msgid "select_amount"
+msgstr "💰 Betrag auswählen"
+
+msgid "support_bot"
+msgstr "💫 Bot unterstützen"
+
+msgid "support_bot_on_stars"
+msgstr "⭐ Bot mit Stars unterstützen"
+
+msgid "thanks_for_support"
+msgstr "🙏 Danke für Ihre Unterstützung!"
+
 msgid "button_is_outdated"
-msgstr "⚠️ Menü veraltet. /start eingeben."
+msgstr "⚠️ Dieser Button ist veraltet. Bitte /start eingeben."
 
-#: handlers/start.py:16
 msgid "welcome_message"
-msgstr "👋 Willkommen! Ich helfe beim sicheren Passwort 🔐"
+msgstr "👋 Willkommen! Ich helfe Ihnen, ein sicheres Passwort zu erstellen 🔐"
 
-#: keyboards/startkb.py:6
 msgid "pass_generate"
 msgstr "⚡ Passwort"
 
-#: keyboards/startkb.py:7
 msgid "qr_generate"
 msgstr "📌 QR-Code"
 
-#: keyboards/startkb.py:8
 msgid "suggestion"
 msgstr "💡 Vorschlag"
 
+msgid "need_input_name_contact"
+msgstr "Bitte geben Sie zuerst den Kontaktnamen ein"

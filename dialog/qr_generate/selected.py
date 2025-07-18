@@ -43,7 +43,7 @@ async def generate(callback: CallbackQuery, button: Button, manager: DialogManag
         qr = TextQRCode(text=text)
     elif qr_type == "vcard":
         if option.get("input_name") is None:
-            await callback.message.answer(_("input_name_contact"))
+            await callback.message.answer(_("need_input_name_contact"))
             return
         name = option.get("input_name")
         phone = option.get("input_phone")
