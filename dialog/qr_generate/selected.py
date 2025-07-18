@@ -3,6 +3,7 @@ from aiogram_dialog import DialogManager
 from aiogram_dialog.widgets.kbd import Button
 from dialog.input import InputSG
 from utils.generate_qr import WiFiQRCode, TextQRCode, VCardQRCode
+from keyboards.startkb import start_kb
 
 
 async def on_click_wifi_ssid(c, b, m: DialogManager):
@@ -57,4 +58,4 @@ async def generate(callback: CallbackQuery, button: Button, manager: DialogManag
     qr_file = qr.generate()
     qr_file.seek(0)
     file = BufferedInputFile(qr_file.read(), filename="qr.png")
-    await callback.message.answer_document(file)
+    await callback.message.answer_document(file, reply_markup=start_kb(_))

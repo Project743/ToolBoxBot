@@ -6,6 +6,7 @@ from aiogram_dialog.widgets.kbd import Button
 from aiogram_dialog.widgets.text import Format
 from dialog import on_process_result
 from config import ADMIN_ID
+from keyboards.startkb import start_kb
 
 
 class SuggestionSG(StatesGroup):
@@ -27,7 +28,7 @@ async def on_input(message: Message, dialog, manager: DialogManager):
 
     await message.forward(chat_id=ADMIN_ID)
 
-    await message.answer(_("offer_sent"))
+    await message.answer(_("offer_sent"), reply_markup=start_kb(_))
 
     # отправляем уведомление о успешной отправке предложения
     await manager.done( show_mode=ShowMode.SEND)

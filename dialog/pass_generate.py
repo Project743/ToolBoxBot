@@ -4,10 +4,12 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram_dialog.widgets.kbd import Button, Multiselect
 from utils.generate_password import PasswordGenerator
 from aiogram.types import CallbackQuery
+from keyboards.startkb import start_kb
 from dialog.input import InputSG
 from dialog import on_process_result
 from typing import Any
 import html
+
 
 
 
@@ -37,7 +39,7 @@ async def generate_selection(callback: CallbackQuery, button: Button, manager: D
     gen = PasswordGenerator(length=input_len, use_digits=use_digits, use_symbols=use_symbols)
     password = gen.generate()
     safe_password = html.escape(password)
-    await callback.message.answer(f"{_("your_password")} <code>{safe_password}</code>", parse_mode="HTML")
+    await callback.message.answer(f"{_("your_password")} <code>{safe_password}</code>", parse_mode="HTML", reply_markup=start_kb(_))
 
 
 async def pass_getter(dialog_manager: DialogManager, **kwargs):
